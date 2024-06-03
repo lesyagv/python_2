@@ -1,0 +1,6 @@
+a = int(input("Enter distance 1: "))
+b = int(input("Enter distance 2: "))
+c = int(input("Enter distance 3: "))
+print(a//1000)
+print(b//1000)
+print(c//1000)

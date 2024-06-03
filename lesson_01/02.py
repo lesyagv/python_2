@@ -1,0 +1,6 @@
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+print(a//10)
+print(b//10)
+print(c//10)
