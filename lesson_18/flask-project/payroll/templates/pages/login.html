@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <div class="container">
+    <h2>{% block title %}Login page{% endblock title %}</h2>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <div class="container">
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword">
+  </div>
+  <button type="login" class="btn btn-primary">Login</button>
+</form>
+    </div>
+{% endblock content %}
