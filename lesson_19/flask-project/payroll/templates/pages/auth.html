@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block header %}
+    <div class="container">
+    <h2>{% block title %}Auth page{% endblock title %}</h2>
+    </div>
+{% endblock header %}
+
+{% block content %}
+    <div class="container">
+<form>
+  <div class="mb-3">
+    <label for="exampleInputFirstName" class="form-label">Enter First name</label>
+    <input type="email" class="form-control" id="exampleInputFirstName">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputLastName" class="form-label">Enter Last name</label>
+    <input type="email" class="form-control" id="exampleInputLastName">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputConfirmPassword" class="form-label">Confirm password</label>
+    <input type="password" class="form-control" id="exampleInputConfirmPassword" aria-describedby="privacy">
+    <div id="privacy" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    </div>
+{% endblock content %}

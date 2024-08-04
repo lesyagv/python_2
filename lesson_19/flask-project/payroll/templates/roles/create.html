@@ -1,0 +1,21 @@
+<!-- flask_payroll/payroll/templates/roles/create.html -->
+{% extends 'base.html' %}
+{% block header %}
+<div class="container">
+<h2>{% block title %}Hire new Roles{% endblock title %}</h2>
+</div>
+{% endblock header %}
+{% block content %}
+<div class="container">
+<form method="post">
+<div class="mb-3">
+<label for="roles_name" class="form-label">Roles name</label>
+<input type="text" class="form-control" id="roles_name" placeholder="Enter roles name" name="roles_name">
+<div>
+
+</div>
+<div class="form-group"><input type="submit" value="Create new roles" class="btn btn-danger"> </div>
+</form>
+</div>
+</div>
+{% endblock content %}
